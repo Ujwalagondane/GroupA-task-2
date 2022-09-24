@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task-2</title>
+    <link rel="stylesheet" href="common.css"/>
+    <style>
+        .full-page{
+            height: 100%;
+            width: 100%;
+            background-color: white;
+        }
+        .container{
+            background-color: white;
+            display: flex;
+            align-content: flex-start;
+            justify-content: space-evenly;
+        }
+
+        .paytm-img{
+            height: 50px;
+            width: 200px;
+            margin: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+           
+        }
+
+        .item{
+            height: 50px;
+            width: 200px;
+            background-color: white;
+            margin: 10px;
+            font-size: 20px;
+            color: black;
+            font:bold;
+            padding: 10px;
+            padding-bottom: 0px;
+          
+            
+        }
+
+        .item:hover{
+            background-color: whitesmoke;
+            height: 30px;
+            width: 200px;
+        }
+
+        .box{
+            background-color: whitesmoke;
+            height: 40px;
+            font:bolder;
+            font-size: 20px;
+            padding-top: 5px;
+            padding-left: 350px;
+        }
+
+        .homepage{
+            display: flex;
+        }
+
+        .logo-img{
+            height: 80px;
+            width: 80px;
+            margin-top: 150px;
+            border: 1px solid whitesmoke;
+            border-bottom: 2px solid skyblue;
+            box-shadow: 0px 1px 5px  rgb(219, 242, 250);
+            margin-left: 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+        }
+
+        .sign-in{ 
+            border: 0px solid;
+             justify-content: center;
+            justify-items: center;
+             border-radius: 25px;
+             font: bold;
+             background-color: skyblue;
+             color: white;
+             height: 40px;
+             width: 120px;
+             margin-right: 5px;
+             margin-top: 20px;
+             
+            }
+
+            .sign-in:hover{
+                background-color: darkblue;
+            }
+
+
+        .heading{
+            font-size: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font: bolder;
+            margin:0;
+            padding-left: 40px;
+            width: 550px;
+            
+        }
+
+        .description{
+            font-family: 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+            padding-left: 40px;
+            width: 400px;
+        }
+
+
+        .btn{
+            background-color: black;
+            border-radius: 30px;
+            height: 45px;
+            width: 250px;
+            color: white;
+            font-size: 15px;
+            margin: 20px;
+            margin-left: 40px;
+            font: bold;
+            padding-bottom: 10px;
+        }
+
+        .btn-img{
+           margin-left: 2px;
+           height: 20px;
+           margin-top: 5px;
+        }
+
+        .btn:hover{
+            background-color: white;
+            color: black;
+        }
+
+        .hp-img{
+            height: 520px;
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+
+        
+        
+        
+
+        .pay-instruction{
+            background-color: whitesmoke;
+            color: black;
+            font-size: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font: bolder;
+            padding-top: 50px;
+            padding-left: 80px;
+            padding-bottom: 20px;
+            margin-top: none;
+        }
+
+       
+        .pay-inst-sub-description{
+            background-color: white;
+            color: black;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 40px;
+        }
+
+         .cont-box{
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 20px;
+            margin-left: 200px;
+            margin-right: 200px;
+            display: flex;
+        }
+
+        .money-tras-img{
+            height: 500px;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+
+        .pay-inst-description{
+            font-size: ;
+        }
+
+        .hdfc-img{
+            height: 50px;
+            width: 200px;
+            margin: 10px;
+            padding-left: 30px;
+            padding-right: 20px;
+            margin-top: 30px;
+        }
+
+       .money-container{
+        display: flex;
+       }
+
+       .paytmw-logo{
+        height: 80px;
+        margin-left: 40px;
+        margin-top: 100px;
+       }
+
+       
+    </style>
+</head>
+<body>
+    <div class="full-page">
+        <div class="container">
+            <div><img src="./images/paytm_logo.png"/ class="paytm-img"/></div>
+            <div class="item">Paytm for consumer</div>
+            <div class="item">Paytm for Business</div>
+            <div class="item">Company</div>
+            <div class="item">Investor Relations</div>
+            <div class="item">Career</div> 
+           
+            <button
+                class="sign-in">
+                Sign In
+                <!-- user avatar  -->
+                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="17" cy="17" r="17" fill="#002970" class="group-hover:fill-[#00BAF2] "/>
+                <circle cx="17" cy="14.7331" r="7.93333" fill="white" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.07898 28.048C6.58399 23.4894 11.4312 20.3999 16.9999 20.3999C22.5687 20.3999 27.4159 23.4894 29.9209 28.048C26.8029 31.691 22.1711 33.9999 16.9999 33.9999C11.8288 33.9999 7.19693 31.691 4.07898 28.048Z"
+                fill="white" />
+                </svg>
+            </button>
+           
+        </div>
+
+        <div class="box">
+            No Wallet KYC Required 😊 to pay using UPI on Paytm. Learn more.
+        </div>
+
+        <div class="homepage">
+            <div>
+                <img src="./images/logo.png" class="logo-img"/>
+                <p class="heading" >India's Most-loved <br> Payments App</p> 
+                <p class="description">Recharge & pay bills, book flights & movie tickets,
+                open a savings account, invest in stocks & mutual funds, and do a lot more.</p>
+
+                <button class="btn">
+                    Download Paytm App 
+                    <img src="./images/apple-logo.png" class="btn-img"/>
+                    <img src="./images/playstore.png" class="btn-img"/>
+                </button>
+            </div>
+            
+            <div>
+                <img src="./images/homepage-img.png" class="hp-img"/>
+            </div>
+        </div>
+
+        <div class="pay">
+            <div class="card-heading">
+                Recharge & Pay Bills on Paytm.
+            </div>
+    
+    
+        <div class="card-container">
+                <div class="card bg-color">
+                    <div align="center">
+                        <img src="./images/recharge(1).png" class="img6" />
+                    </div>
+                    <div class=" hvr">
+                        Recharge<br>
+                        Prepaid<br>
+                        Mobile > <br>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="card bg-color">
+                    <div align="center">
+                        <img src="./images/recharge(2).png" class="img6" />
+    
+                    </div>
+                    <div class=" hvr">
+                        Pay<br>
+                        Rent<br>
+                        Payment > <br>
+                    </div>
+                </div>
+
+                <div class="card bg-color">
+                    <div align="center">
+                        <img src="./images/recharge(3).png" class="img6" />
+                    </div>
+                    <div class=" hvr">
+                        Pay<br>
+                        Electricity<br>
+                        Bill ><br>
+                    </div>
+                </div>
+    
+    
+                <div class="card bg-color">
+                    <div align="center">
+                        <img src="./images/recharge(4).png" class="img6" />
+                    </div>
+                    <div class=" hvr">
+                        Recharge<br>
+                        DTH<br>
+                        Connection ><br>
+                    </div>
+                </div>
+    
+                <div class="card bg-color">
+                    <div align="center">
+                        <img src="./images/recharge(5).png" class="img6" />
+                </div>
+                    <div class="hvr">
+                        Book<br>
+                        Gas<br>
+                        Cylinder ><br>
+                    </div>
+                </div>
+    
+                <div class="card bg-color">
+                    <div align="center">
+                        <img src="./images/recharge(6).png" class="img6" />
+    
+                    </div>
+                    <div class="hvr">
+                        Pay<br>
+                        Credit<br>
+                        Card Bill ><br>
+                    </div>
+                </div>
+    
+                <div class="card bg-color">
+                    <div align="center">
+                        <img src="./images/recharge(7).png" class="img6" />
+                    </div>
+                    <div class="hvr">
+                        All<br>
+                        Payment<br>
+                        Services ><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="buy">
+            <div class="card-heading">
+                Book & Buy on Paytm.
+            </div>
+    
+    
+        <div class="card-container">
+                <div class="card bg-clr">
+                    <div align="center">
+                        <img src="./images/movie.png" class="img6" />
+                    </div>
+                    <div class=" hvr">
+                        Movie<br/>
+                        Tickets ><br/>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="card bg-clr">
+                    <div align="center">
+                        <img src="./images/flight.png" class="img6" />
+    
+                    </div>
+                    <div class=" hvr">
+                        Flight <br/>
+                        Tickets ><br/>
+                    </div>
+                </div>
+
+                <div class="card bg-clr">
+                    <div align="center">
+                        <img src="./images/Bus.png" class="img6" />
+                    </div>
+                    <div class=" hvr">
+                        Bus<br/>
+                        Tickets ><br/>
+                    </div>
+                </div>
+    
+    
+                <div class="card bg-clr">
+                    <div align="center">
+                        <img src="./images/train.png" class="img6" />
+                    </div>
+                    <div class=" hvr">
+                        Train <br />
+                        Tickets ><br />
+                    </div>
+                </div>
+    
+                <div class="card bg-clr">
+                    <div align="center">
+                        <img src="./images/car.png" class="img6" />
+                </div>
+                    <div class="hvr">
+                        Car & <br />
+                        Bikes ><br />
+                    </div>
+                </div>
+    
+                <div class="card bg-clr">
+                    <div align="center">
+                        <img src="./images/I-flight.png" class="img6" />
+    
+                    </div>
+                    <div class="hvr">
+                        International  <br />
+                       Flights ><br/>
+                    </div>
+                </div>
+    
+                <div class="card bg-clr">
+                    <div align="center">
+                        <img src="./images/invest.png" class="img6" />
+                    </div>
+                    <div class="hvr">
+                        Invest<br />
+                        In <br />
+                        Stocks><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    
+
+        <div class="pay-instruction">
+            <h5>Paytm Payment Instruments</h5>
+
+            <div class="page-container">
+                <div class="pagebox-container">
+                    <div class="pay-inst-box">
+                        <img src="./images/paytm-wallet.png" class="paytmw-logo" />
+                        
+                        <p class="cont-heading">The Fastest Way to Pay In-store & Online.</p>
+                        <p class="description">Load up your Paytm Wallet for free and make payments in a jiffy at over 21 million stores, websites and apps.</p>
+                        <div>
+                            <button class="btn">
+                                Download Paytm App 
+                                <img src="./images/apple-logo.png" class="btn-img"/>
+                                <img src="./images/playstore.png" class="btn-img"/>
+                            </button>
+                        </div>
+                    </div>
+        
+                    <div class="pay-inst-box">
+                        <div class="row"><img src="./images/secondpage-img.png" class="pay-inst-img"/></div>
+                    </div>
+                    
+                </div>
+
+                <div class="pagebox-container">
+                    <div class="pay-inst-box">
+                        <img src="./images/upi-money-trasfer.png" class="paytmw-logo"/>
+                        <p class="cont-heading">Pay anyone directly from your bank account.</h6>
+                        <p class="description">Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm Wallet or Directly from your Bank Account. Plus, send & receive money from anyone.</p>
+                        <div>
+                            <button class="btn">
+                                Download Paytm App 
+                                <img src="./images/apple-logo.png" class="btn-img"/>
+                                <img src="./images/playstore.png" class="btn-img"/>
+                            </button>
+                        </div>
+                    </div>
+        
+                    <div class="pay-inst-box">
+                        <div class="row"><img src="./images/third-img.png" class="pay-inst-img"/></div>
+                    </div>
+                </div>
+
+                <div class="pagebox-container">
+                    <div class="pay-inst-box">
+                        <img src="./images/paytm-postpaid.png" class="paytmw-logo"/>
+                        <p class="cont-heading">
+                            Want it?<br>
+                            No more waiting for it. 
+                        </p>
+                        <p class="description">With Paytm Postpaid, your wishlist doesn't have to be on the waitlist. Shop for the things you want today and pay for them next month.</p>
+                        <button class="common-btn"> Learn More > </button>
+                    </div>
+                        
+                    <div class="pay-inst-box">
+                        <div class="row">
+                            <img src="./images/fourth-img.png" class="money-tras-img"/>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+                <div class="boxpage-contaier">
+                    <div class="pay-box">
+                        <div class="pay-inst-description">
+                            <img src="./images/paytm-hdfc.png"/ class="hdfc-img">
+                            <p class="cont-heading">
+                                Unlimited Cashback<br>
+                                Every time
+                            </p>
+                            <p class="description">Paytm HDFC Bank Select Credit Card. A card with assured Cashback and incredible offers.</p>
+                            <img src="./images/card(1).png" class="card-img"/>
+                        </div>
+                    </div>
+
+                    <div class="pay-box">
+                        <div class="pay-inst-description">
+                            <img src="./images/paytm-sbi.png"/ class="hdfc-img">
+                            <p class="cont-heading">India’s Most <br>
+                                Sincere Credit Card</p>
+                            <p class="description">Paytm SBI Card SELECT - With Intelligent Features & Great Rewards that Never Expire</p>
+                            <img src="./images/card(2).png" class="card-img"/>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="homepage">
+            <div>
+                <p class="heading">Financial Services by Paytm</p>
+                <img src="./images/payment-bank.webp" class="paybank-img"/>
+                <p class="heading">India's most sincere bank.</p> 
+                <p class="description">Paytm Payments Bank offers secure, transparent and risk-free banking at your fingertips. With instant account opening, virtual debit card and zero balance requirements, experience the future of banking today.</p>
+                <button class="common-btn"> Learn More > </button>
+            </div>
+            
+            <div>
+                <img src="./images/fifth-img.png" class="hp-img"/>
+            </div>
+        </div>
+
+        <div class="pay-instruction money-container">
+            
+            <div>
+                <img src="./images/sixth-img.png" class="hp-img"/>
+            </div>
+
+            <div>
+                <img src="./images/Paytm_Money_Logo.png"  class="paytm-img"/>
+                <p class="cont-heading">
+                    Build Long-term Wealth & Achieve your Goals.
+                </p>
+                <p class="description">
+                    Investing on Paytm Money is transparent, low-cost and commission-free. Buy stocks & mutual funds that can help you create wealth & realise your dreams. </p>
+                <button class="common-btn"> Learn More > </button>
+            </div>
+           
+        </div>
+
+        <div class="homepage">
+            <div>
+               
+                <img src="./images/insurence.png" class="paytm-img"/>
+                <p class="heading">Insurance made easy.</p> 
+                <p class="description">Buying insurance does not have to be tedious, time-consuming & confusing. Paytm Insurance removes the worry of getting insured by making it simple, convenient & easy-to-understand.</p>
+                <button class="common-btn"> Learn More > </button>
+            </div>
+            
+            <div>
+                <img src="./images/insurence1.png" class="hp-img"/>
+            </div>
+        </div>
+
+        <div class="pay-instruction money-container">
+            
+            <div>
+                <img src="./images/loan-img.png" class="hp-img"/>
+            </div>
+
+            <div>
+                <img src="./images/personal loan.png"  class="paytm-img"/>
+                <p class="cont-heading">
+                    Get a Personal Loan in 2 Minutes.
+                </p>
+                <p class="description">
+                    Paytm offers India's quickest multi-purpose, hassle-free loan. It is 100% digital, transparent and paperless.</p>
+                <button class="common-btn"> Learn More > </button>
+            </div>
+           
+        </div>
+
+        <div class="business-container">
+            <p class="heading">Business Services by Paytm</p>
+
+            <div class="busipage-container">
+                
+                    <div class="busi-pagebox-container">
+                       
+                        <p class="cont-heading">Accept payments online with ease</p>
+                        <p class="description">Grow your business with the payment gateway that powers India’s largest brands and even the Paytm App</p>
+                        <div>
+                            <button class="common-btn"> Learn More > </button> 
+                        </div>
+                    </div>
+        
+                    <div class="busi-pagebox-container">
+                        <div class="row"><img src="./images/business.png" class="pay-inst-img"/></div>
+                    </div>
+            </div>
+
+            <div class="busipage-container">
+                
+                <div class="busi-pagebox-container">
+                    
+                    <p class="cont-heading">In-shop payments powered by Paytm.</p>
+                    <p class="description">Millions of small & big businesses use Paytm to accept payments anywhere any time with a wide range of solutions for all kind of merchants</p>
+                    <div>
+                        <button class="common-btn"> Learn More > </button> 
+                    </div>
+                </div>
+    
+                <div class="busi-pagebox-container">
+                    <div class="row"><img src="./images/accept.png" class="pay-inst-img"/></div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="homepage">
+           <p class="heading">Business Tools to help your business grow</p>
+        </div>
+
+        <div  class="box-card">
+            <div >
+                <img src="./images/dash.png" class="box-card-img"/>
+                <h1 class="box-heading">POS Billing <br> Software</h1> 
+                <p class="description">Say Hello to Smart Retail Business Management Learn Morearrow</p>
+            </div>
+            
+            <div>
+                <img src="./images/free.png" class="box-card-img"/>
+                <h1 class="box-heading">Paytm for <br> Business App</h1> 
+                <p class="description">Everything you need to manage your business on your phone  Learn Morearrow</p>
+            </div>
+
+            <div>
+                <img src="./images/visa.png" class="box-card-img"/>
+                <h1>Advertise on <br>Paytm</h1> 
+                <p class="description">Grow your business by advertising on India’s largest mobile business Learn Morearrow</p>
+            </div>
+
+            <div>
+                <img src="./images/khata.png" class="box-card-img"/>
+                <h1>Business <br>Khata<h1> 
+                <p class="description">Managing Khata made easy Learn Morearrow</p>
+            </div>
+        </div>
+
+
+         
+        
+    </div>    
+</body>
+</html>
